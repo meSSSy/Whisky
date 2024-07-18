@@ -13,11 +13,29 @@
 <body>
   <nav class="navbar navbar-light bg-light navbar-expand-sm">
     <a href="/" class="navbar-brand">Whiskey Drop</a>
-    <ul class="navbar-nav mr-auto">
+
+    <!-- Dropdown menu on navbar for small screen -->
+    <button class="navbar-togger ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    
+      <ul class="navbar-nav mr-auto">
         <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></a></li>
         <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></a></li>
         <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarNavbarMenuLink">
+          <a class="dropdown-item" href="#">Irish</a>
+          <a class="dropdown-item" href="#">Scotch</a>
+          <a class="dropdown-item" href="#">Japanese</a>
+          <a class="dropdown-item" href="#">American</a>
+        </div>
+        </li>
     </ul>
+  </div>
     <div class="d-none d-md-block">
       <p class="navbar-text my-auto mr-2">Great Whiskey delivered to your door!</p>
       <a href="/login">Login / Sign Up</a>
@@ -50,6 +68,7 @@
         <!-- Quotes -->
         <section class="quotes">
           <div class="row">
+            <!-- my-5 spaces out -->
             <div class="col-12 my-5">
             <h2 class="text-uppercase">Quotes:</h2>
           </div>
@@ -96,7 +115,8 @@
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
-                <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+              <!-- Block on mobile devices --> 
+              <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <p><a class="btn btm-sm btn-light" href="">Read More</a></p>
               </div>
@@ -162,6 +182,9 @@
 
 
     </article>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 
 </html>
