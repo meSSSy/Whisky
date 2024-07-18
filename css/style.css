@@ -7,7 +7,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("../images/sj-xHlmsdP6yAM-unsplash.jpg") no-repeat bottom right fixed; 
+    background: url("../images/pexels-cottonbro-9419395.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,4 +21,26 @@ body {
 .quotes-container {}
 
 .features-container {}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.lead {
+    color: white;
+}
 
