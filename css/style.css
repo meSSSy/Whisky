@@ -53,3 +53,18 @@ body {
     background-color: #696464;
 }
 
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    
+}
+
+.btn--red {
+    color: white;
+    background-color: #696464;
+    border-color: #696464;
+
+}
