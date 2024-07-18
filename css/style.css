@@ -41,6 +41,15 @@ body {
 }
 
 .lead {
-    color: white;
+    color: #e8ea5a;
+}
+
+/* Block Divider */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #696464;
 }
 
