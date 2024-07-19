@@ -22,6 +22,29 @@ body {
 
 .features-container {}
 
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar  {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+   
+}
+
+.navbar navbar-toggler {
+    border: 0  ;
+}
+
+
 /* Jumbotron */
 
 .jumbotron {
@@ -41,7 +64,7 @@ body {
 }
 
 .lead {
-    color: #e8ea5a;
+    color: #696464;
 }
 
 /* Block Divider */
@@ -57,7 +80,7 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 40px;
     width: 160px;
     
 }
@@ -68,3 +91,12 @@ body {
     border-color: #696464;
 
 }
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #971818;
+    border-color: #696464;
+}
+
